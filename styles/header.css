@@ -12,7 +12,7 @@
         margin-inline: auto;
     }
 
-    div:nth-child(3){
+    div:nth-child(3) {
         justify-self: end;
     }
 }
