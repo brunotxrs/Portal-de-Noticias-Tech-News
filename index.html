@@ -8,27 +8,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <title>Portal de notícias
-    </title>
-    <link rel="stylesheet" href="styles/index.css">
+    <title>Portal de notícias</title>
+    <link rel="shortcut icon" href="./src/assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/styles/index.css">
 </head>
 <body>
     <header class="container">
         <nav id="primary" class="grid grid-flow-col">
-            <div>
-                <img src="./assets/icons/List.svg" alt="ícone de menu">
+            <div id="menu">
+                <img src="./src/assets/icons/List.svg" alt="ícone de menu">
                 <strong>Menu</strong>
             </div>
 
             <div>
-                <img src="./assets/Tech News.svg" alt="logo Tech News">
+                <img src="./src/assets/icons/Tech News.svg" alt="logo Tech News">
             </div>
 
             <div>
                 <strong>Buscar</strong>
-                <img src="./assets/icons/MagnifyingGlass.svg" alt="icone de lupa para pesquisa">
+                <img src="./src/assets/icons/MagnifyingGlass.svg" alt="icone de lupa para pesquisa">
             </div>
         </nav>
+
         <nav id="secondary" class="grid grid-flow-col">
             <a href="#" id="">Inteligência Artificial</a>
             <a href="#" id="">Blockchain</a>
@@ -38,23 +39,27 @@
             <a href="#" id="">Realidade Aumentada</a>
             <a href="#" id="">Realidade  Virtual</a>
         </nav>
-
     </header>
 
-    <main class="grid container">
+    <main  class="grid container">
         <section id="featured" class="grid grid-flow-col gap-16">
-            <figure class="card">
-                <img src="./assets/images/Image 01.png" alt="">
+
+            <figure class="figure-1 card">
+                <img src="./src/assets/images/Image 01.png" alt="">
 
                 <figcaption>
                     <span class="content-tag">Robótica</span>
-                    <h2 class="text-2xl">Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e eficiência nas residências.</h2>
+                    <h2 class="text-2xl">
+                        Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e eficiência nas residências.
+                    </h2>
                 </figcaption>
             </figure>
 
+
             <div class="grid grid-cols-2 gap-16">
+
                 <figure class="card">
-                    <img src="./assets/images/Image 02.png" alt="Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!">
+                    <img src="./src/assets/images/Image 02.png" alt="Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!">
 
                     <figcaption>
                         <span class="content-tag">Hologramas</span>
@@ -63,7 +68,7 @@
                 </figure>
     
                 <figure class="card">
-                    <img src="./assets/images/Image 03.png" alt="Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comunicamos.
+                    <img src="./src/assets/images/Image 03.png" alt="Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comunicamos.
                     ">
                     <figcaption>
                         <span class="content-tag">Internet</span>
@@ -72,7 +77,7 @@
                 </figure>
     
                 <figure class="card">
-                    <img src="./assets/images/Image 04.png" alt="Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o bem-estar pessoal.">
+                    <img src="./src/assets/images/Image 04.png" alt="Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o bem-estar pessoal.">
 
                     <figcaption>
                         <span class="content-tag">Vestíveis</span>
@@ -83,7 +88,7 @@
     
                 <figure class="card">
 
-                        <img src="./assets/images/Image 05.png" alt="Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem tradicional.">
+                        <img src="./src/assets/images/Image 05.png" alt="Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem tradicional.">
 
                     <figcaption>
                         <span class="content-tag">Realidade Virtual</span>
@@ -91,9 +96,10 @@
                     </figcaption>
                 </figure>
             </div>
+
         </section>
 
-        
+
         <section id="weekly">
             <header class="grid grid-flow-col">
                 <h3>Mais lidas da semana</h3>
@@ -106,33 +112,33 @@
             <div class="grid gap-16">
                 <figure>
                     <span class="content-tag">Veículos</span>
-                    <img src="./assets/images/Image 06.png" alt="">
+                    <img src="./src/assets/images/Image 06.png" alt="">
                     <p>Protótipo de veículo voador é apresentado, marcando o início da era dos transportes aéreos pessoa...</p>
                 </figure>
 
                 <figure>
                     <span class="content-tag">Hologramas</span>
-                    <img src="./assets/images/Image 07.png" alt="">
+                    <img src="./src/assets/images/Image 07.png" alt="">
                     <p>Plataforma de videoconferência apresenta nova função de hologramas, tornando as chamada...</p>
                 </figure>
 
                 <figure>
                     <span class="content-tag">Virtual</span>
-                    <img src="./assets/images/Image 08.png" alt="">
+                    <img src="./src/assets/images/Image 08.png" alt="">
                     <p>Nova geração de consoles de videogame é lançada, trazendo gráficos ultra-realistas e experiên...</p>
                 </figure>
 
                 <figure>
                     <span class="content-tag">Internet</span>
-                    <img src="./assets/images/Image 09.png" alt="">
+                    <img src="./src/assets/images/Image 09.png" alt="">
                     <p>Projeto busca oferecer internet de alta velocidade em áreas remotas através de satélites.</p>
                 </figure>
             </div>
+
         </section>
 
-
-
         <section id="ai">
+
             <header class="grid grid-flow-col">
                 <h3>Destaques de Inteligência Artificial</h3>
                 <a href="#" class="grid grid-flow-col">
@@ -140,27 +146,43 @@
                     <span></span>
                 </a>
             </header>
+
             <div class="grid gap-32">
+
                 <article class="grid grid-flow-col gap-16">
+
                     <div>
+
                         <span class="content-tag">Inteligência Artificial</span>
+
                         <h3 class="text-xl">Empresa surpreende o mundo ao anunciar um algoritmo capaz de prever eventos futuros com alta precisão.</h3>
+
                         <p>Em um avanço surpreendente da inteligência artificial, uma empresa anuncia o desenvolvimento de um algoritmo capaz de prever eventos futuros com notável precisão. Descubra como essa tecnologia está desafiando as fronteiras da previsão e quais são as implicações para diversas áreas, desde finanças até plan... </p>
+
                     </div>
+
+
                     <div>
-                        <img src="./assets/images/Image 10.png" alt="">
+                        <img src="./src/assets/images/Image 10.png" alt="">
                     </div>
 
                 </article>
 
                 <article class="grid grid-flow-col gap-16">
                     <div>
+
                         <span class="content-tag">Inteligência Artificial</span>
-                        <h3 class="text-xl">Dispositivo portátil promete traduzir instantaneamente diferentes idiomas, facilitando a comunicação global.</h3>
-                        <p>Em um mundo cada vez mais conectado, a comunicação sem fronteiras é essencial. Nesse contexto, um dispositivo portátil surge como um verdadeiro herói linguístico, prometendo quebrar as barreiras idiomáticas instantaneamente. Imagine poder se comunicar fluentemente em qualquer lugar do mundo, indepe...</p>
+
+                        <h3 class="text-xl">
+                            Dispositivo portátil promete traduzir instantaneamente diferentes idiomas, facilitando a comunicação global.
+                        </h3>
+
+                        <p>
+                            Em um mundo cada vez mais conectado, a comunicação sem fronteiras é essencial. Nesse contexto, um dispositivo portátil surge como um verdadeiro herói linguístico, prometendo quebrar as barreiras idiomáticas instantaneamente. Imagine poder se comunicar fluentemente em qualquer lugar do mundo, indepe...
+                        </p>
                     </div>
                     <div>
-                        <img src="./assets/images/Image 11.png" alt="">
+                        <img src="./src/assets/images/Image 11.png" alt="">
                     </div>
 
                 </article>
@@ -172,7 +194,7 @@
                         <p>A tecnologia não só avança, mas também busca tornar a vida mais significativa para todas as gerações. No cenário atual, os robôs sociais, projetados especialmente para oferecer apoio e companhia aos idosos, estão ganhando destaque. Mais do que meros assistentes, esses robôs são programados para f... </p>
                     </div>
                     <div>
-                        <img src="./assets/images/Image 12.png" alt="">
+                        <img src="./src/assets/images/Image 12.png" alt="">
                     </div>
 
                 </article>
@@ -185,17 +207,18 @@
                         <p>No turbilhão da vida moderna, onde distrações são abundantes, um aplicativo inovador surge como um aliado indispensável para quem busca maior concentração e eficiência no cotidiano. Utilizando avançados algoritmos de inteligência artificial, este aplicativo promete mais do que simplesmente gerenci....</p>
                     </div>
                     <div>
-                        <img src="./assets/images/Image 13.png" alt="">
+                        <img src="./src/assets/images/Image 13.png" alt="">
                     </div>
 
                 </article>
 
             </div>
+
         </section>
 
         <aside>
             <div id="ads">
-                <img src="./assets/Ads.png" alt="">
+                <img src="./src/assets/images/Ads.png" alt="">
             </div>
 
             <section id="more">
@@ -211,7 +234,7 @@
                 <div class="grid gap-32">
                     <article class="grid grid-flow-col gap-16">
                         <div>
-                            <img src="./assets/images/Image 14.png" alt="Aplicativo de monitoramento ambiental ganha destaque, incentivando práticas ecológicas">
+                            <img src="./src/assets/images/Image 14.png" alt="Aplicativo de monitoramento ambiental ganha destaque, incentivando práticas ecológicas">
                         </div>
 
                         <div>
@@ -222,7 +245,7 @@
 
                     <article class="grid grid-flow-col gap-16">
                         <div>
-                            <img src="./assets/images/Image 15.png" alt="Óculos de realidade virtual com feedback tátil proporcionam uma experiência sensorial">
+                            <img src="./src/assets/images/Image 15.png" alt="Óculos de realidade virtual com feedback tátil proporcionam uma experiência sensorial">
                         </div>
 
                         <div>
@@ -233,7 +256,7 @@
 
                     <article class="grid grid-flow-col gap-16">
                         <div>
-                            <img src="./assets/images/Image 16.png" alt="Surge uma nova moeda digital baseada em tecnologias sustentáveis">
+                            <img src="./src/assets/images/Image 16.png" alt="Surge uma nova moeda digital baseada em tecnologias sustentáveis">
                         </div>
 
                         <div>
@@ -244,7 +267,7 @@
 
                     <article class="grid grid-flow-col gap-16">
                         <div>
-                            <img src="./assets/images/Image 17.png" alt=">Empresas de e-commerce implementam frota de drones para entregas rápidas">
+                            <img src="./src/assets/images/Image 17.png" alt=">Empresas de e-commerce implementam frota de drones para entregas rápidas">
                         </div>
 
                         <div>
@@ -255,7 +278,7 @@
 
                     <article class="grid grid-flow-col gap-16">
                         <div>
-                            <img src="./assets/images/Image 18.png" alt="Tecnologia inovadora permite a impressão 3D de órgãos humanos">
+                            <img src="./src/assets/images/Image 18.png" alt="Tecnologia inovadora permite a impressão 3D de órgãos humanos">
                         </div>
 
                         <div>
@@ -265,8 +288,12 @@
                     </article>
 
                 </div>
+                
             </section>
         </aside>
     </main>
+
+    <script src="./src/js/index.js"></script>
+
 </body>
 </html>
